@@ -1,0 +1,59 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@font-face {
+	font-family: 'Almarai';
+    src: 
+    local('Almarai'),
+	url('fonts/Almarai-Regular.ttf') 
+	format('truetype');
+}
+
+
+@import '../external/css/style.css';
+
+.form-title{
+
+
+	font-family: 'Almarai', sans-serif;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  	font-family: 'Almarai', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	font-family: 'Almarai', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+ 	font-family: 'Almarai', sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+	font-family: 'Almarai', sans-serif;
+}
+select {
+
+font-family: 'Almarai', sans-serif;
+
+}
+
+select option {
+
+font-family: 'Almarai', sans-serif;
+
+}
+
+button {
+font-family: 'Almarai', sans-serif;
+
+
+}
+h1,h2,h3,h4,h5,h6,p {
+font-family: 'Almarai', sans-serif;
+
+	
+}
