@@ -61,7 +61,7 @@ Route::get('/admin/listlevels/{id}', 'LevelsController@list_levels_reserve')->na
 Route::get('/admin/sessions', 'SessionsController@index')->name('index')->middleware('auth');
 
 Route::get('/admin/myses', 'SessionsController@show_card_session')->name('show_card_session')->middleware('auth');
-
+//sdsdsdsd
 Route::get('/admin/listparticipants/{id}', 'SessionsController@list_paticipants')->name('list_paticipants')->middleware('auth');
 
 Route::get('/admin/levels', 'LevelsController@index')->name('index')->middleware('auth');

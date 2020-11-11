@@ -45,7 +45,7 @@ Route::get('/getcountryteachers/{country}/', 'UsersController@data_filtre_teache
 Route::get('/getlevelgroups/{id}', 'LevelsController@list_levels');
 
 Route::get('/getuserslevellist/{id}', 'LevelsController@list_users_level');
-
+//sdsdsdsdd
 Route::delete('/deleteusertest/{id}','LevelsController@delete_users_level');
   
 Route::get('/showtestuser/{id}','LevelsController@show_user_level');
@@ -71,7 +71,7 @@ Route::get('/showtestusertest/{id}','LevelsController@user_show_add');
 
 //Start sessions routes -------------------------------------------------
 
-
+Route::patch('/updatelink','SessionsController@update_link');
 
 Route::post('/addsession','SessionsController@add_session');
 Route::get('/getsessions/{id}','SessionsController@session_data');
